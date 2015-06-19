@@ -30,7 +30,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\location\location.html">
       <PackagePath>pages\location\location.html</PackagePath>
-      <Modified>2015-06-19T11:43:29.561</Modified>
+      <Modified>2015-06-19T16:31:43.168</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\map\map.html">
       <PackagePath>pages\map\map.html</PackagePath>
@@ -70,7 +70,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\location\location.js">
       <PackagePath>pages\location\location.js</PackagePath>
-      <Modified>2015-06-19T11:44:34.684</Modified>
+      <Modified>2015-06-19T16:48:26.599</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\map\map.js">
       <PackagePath>pages\map\map.js</PackagePath>
@@ -78,11 +78,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\search\search.js">
       <PackagePath>pages\search\search.js</PackagePath>
-      <Modified>2015-06-19T11:47:36.625</Modified>
+      <Modified>2015-06-19T16:08:19.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\weather\weather.js">
       <PackagePath>pages\weather\weather.js</PackagePath>
-      <Modified>2015-06-19T11:49:16.739</Modified>
+      <Modified>2015-06-19T16:50:26.386</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\WinJS\js\en-US\ui.strings.js">
       <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>

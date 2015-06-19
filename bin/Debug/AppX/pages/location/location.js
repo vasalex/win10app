@@ -63,7 +63,10 @@
       });
 
       function oniteminvokedHandler(eventObject) {
-          WinJS.Navigation.navigate("/pages/weather/weather.html", eventObject);
+          eventObject.detail.itemPromise.done(function (invokedItem) {
+              WinJS.Navigation.navigate("/pages/weather/weather.html", invokedItem.data.data);
+          });
+         // WinJS.Navigation.navigate("/pages/weather/weather.html", eventObject);
       }
 
       WinJS.Namespace.define(

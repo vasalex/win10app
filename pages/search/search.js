@@ -87,7 +87,7 @@
     }
 
     function oniteminvokedHandler(eventObject) {
-        WinJS.Navigation.navigate("/pages/weather/page.html", eventObject);
+        WinJS.Navigation.navigate("/pages/weather/weather.html", eventObject);
     }
 
     WinJS.Namespace.define(
