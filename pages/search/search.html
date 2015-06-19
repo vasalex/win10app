@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Поиск</title>
+
+    <link href="/WinJS/css/ui-dark.css" rel="stylesheet" />
+    <script src="/WinJS/js/WinJS.js"></script>
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/search/search.css" rel="stylesheet" />
+    <script src="/pages/search/search.js"></script>
+
+</head>
+<body>
+    <div class="fragment">
+        <div class="fragment-body">
+            <div class="content">
+                <div id="headerTemplate" data-win-control="WinJS.Binding.Template">
+                    <div class="headerItem">
+                        <h4 data-win-bind="innerText: title"></h4>
+                    </div>
+                </div>
+                <div id="cityTemplate" data-win-control="WinJS.Binding.Template">
+                    <div class="tile" data-win-bind="className: kind">
+                        <h6 data-win-bind="innerText: name"></h6>
+                    </div>
+                </div>
+                <div id="cities" data-win-control="WinJS.UI.ListView"
+                                 data-win-options="{ itemTemplate: select('#cityTemplate'),
+                                                     groupHeaderTemplate: select('#headerTemplate'),
+                                                     layout: {
+                                                        type: WinJS.UI.CellSpanningLayout,
+                                                        groupInfo: { enableCellSpanning: true, cellWidth: 250, cellHeight: 80 }
+                                                     }
+                                }"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

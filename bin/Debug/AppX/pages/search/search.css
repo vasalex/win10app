@@ -1,0 +1,35 @@
+﻿body {
+}
+
+.tile .A,  .tile .M, .tile .F,{
+  display: -ms-grid;
+   /*-ms-grid-rows: 1fr 48px 50px 50px 1fr; */
+   width: 250px;
+   height: 70px;
+   border: 1px solid #1c1923;
+   background: #131e2b;
+   padding: 10px 20px;
+   box-sizing: border-box;
+}
+
+.tile .T {
+  display: -ms-grid;
+   /*-ms-grid-rows: 1fr 48px 50px 50px 1fr;*/
+   width: 250px;
+   height: 110px;
+   border: 1px solid #1c1923;
+   background: #131e2b;
+   padding: 10px 20px;
+   box-sizing: border-box;
+}
+
+.tile .C {
+  display: -ms-grid;
+   -ms-grid-rows: 1fr 48px 50px 50px 1fr;
+   width: 250px;
+   height: 250px;
+   border: 1px solid #1c1923;
+   background: #131e2b;
+   padding: 10px 20px;
+   box-sizing: border-box;
+}

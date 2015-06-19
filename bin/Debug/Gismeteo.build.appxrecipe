@@ -25,11 +25,11 @@
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\map\map.html">
       <PackagePath>pages\map\map.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\search\page.html">
-      <PackagePath>pages\search\page.html</PackagePath>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\search\search.html">
+      <PackagePath>pages\search\search.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\weather\page.html">
-      <PackagePath>pages\weather\page.html</PackagePath>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\weather\weather.html">
+      <PackagePath>pages\weather\weather.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
@@ -46,11 +46,20 @@
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\location\location.js">
       <PackagePath>pages\location\location.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\map\map.js">
       <PackagePath>pages\map\map.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\search\search.js">
+      <PackagePath>pages\search\search.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\weather\weather.js">
+      <PackagePath>pages\weather\weather.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\WinJS\js\en-US\ui.strings.js">
       <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
@@ -72,6 +81,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\map\map.css">
       <PackagePath>pages\map\map.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\search\search.css">
+      <PackagePath>pages\search\search.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\weather\weather.css">
+      <PackagePath>pages\weather\weather.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\WinJS\css\ui-dark.css">
       <PackagePath>WinJS\css\ui-dark.css</PackagePath>

@@ -12,6 +12,7 @@
     <!-- Gismeteo references -->
     <link href="/css/default.css" rel="stylesheet" />
     <script src="/js/default.js"></script>
+    <script src="/js/navigator.js"></script>
 </head>
 <body>
     <div class="page">
@@ -22,15 +23,22 @@
                 <span class="pagetitle" data-win-res="{textContent: 'pagePlacesTitle'}">Местоположения</span>
             </h1>
             <div class="searchBox control-for-all" id="search"
-                 data-win-control="WinJS.UI.SearchBox"
-                 data-win-options="{placeholderText: 'Поиск', focusOnKeyboardInput: false, searchHistoryDisabled: true, chooseSuggestionOnEnter: false }">
+                 data-win-control="WinJS.UI.AutoSuggestBox"
+                 data-win-options="{
+                    placeholderText: 'Поиск',
+                    focusOnKeyboardInput: false,
+                    searchHistoryDisabled: true,
+                    chooseSuggestionOnEnter: false,
+                    onquerysubmitted: Search.querySubmittedHandler,
+                    onsuggestionsrequested: Search.suggestionsrequestedHandler
+                 }">
             </div>
             <div class="searchBox control-for-weather">
                 <button id="hourly" class="button active">По часам</button>
                 <button id="weekly" class="button">По дням</button>
             </div>
         </header>
-        <div id="contenthost" data-win-control="WinJS.UI.HtmlControl" data-win-options="{uri: '/pages/location/location.html'}"></div>
+        <div id="contenthost" data-win-control="Application.PageControlNavigator" data-win-options="{home: '/pages/location/location.html'}"></div>
     </div>
 </body>
 </html>

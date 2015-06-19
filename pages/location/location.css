@@ -28,6 +28,16 @@
    box-sizing: border-box;
 }
 
+.middleListIconTextItem {
+    display: -ms-grid;
+   width: 250px;
+   height: 125px;
+   border: 1px solid #1c1923;
+   background: #131e2b;
+   padding: 5px 20px;
+   box-sizing: border-box;
+}
+
 .largeListIconTextItem {
   display: -ms-grid;
    -ms-grid-rows: 1fr 48px 50px 50px 1fr;
@@ -38,3 +48,36 @@
    padding: 10px 20px;
    box-sizing: border-box;
 }
+
+/* Override default css properties for winjs framework*/
+
+/*.location .win-listview {
+    height:auto;
+}
+.location .win-listview .win-groupheader {
+    padding: 0px;
+    overflow: hidden;
+    font-size: 20pt;
+    font-weight: 200;
+    line-height: 1.2;
+    float:none;
+}
+.location .win-listview .win-itembox, .win-itemcontainer .win-itembox {
+    background-color: rgba(29, 29, 29, 0);
+}
+.location .win-horizontal .win-gridlayout .win-container {
+    margin: 0px;
+}
+.location .win-listview > .win-horizontal .win-container {
+    margin: 0;
+}
+.location .win-groups.win-listview .win-horizontal .win-groupleader {
+    margin-left: 0;
+}
+.location .win-groups.win-listview > .win-horizontal .win-surface {
+    margin-left: 0px;
+}
+.location .win-listview .win-container:hover, .win-container.win-itemcontainer:hover {
+    outline: rgba(255, 255, 255, 0.3) solid 0px;
+}
+*/

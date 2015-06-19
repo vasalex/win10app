@@ -12,7 +12,7 @@
 
 </head>
 <body>
-    <div class="fragment">
+    <div class="fragment location">
         <div class="fragment-body">
             <div class="content">
                <div id="headerTemplate" data-win-control="WinJS.Binding.Template">
@@ -34,6 +34,7 @@
                                                     itemTemplate: select('#cityTemplate'),
                                                     groupHeaderTemplate: select('#headerTemplate'),
                                                     groupDataSource: cities.groupedCitiesList.groups.dataSource,
+                                                    oniteminvoked: cities.oniteminvokedHandler,
                                                     layout: {
                                                         type: WinJS.UI.CellSpanningLayout,
                                                         groupInfo: cities.groupInfo,
