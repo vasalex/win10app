@@ -1,0 +1,15 @@
+C:\win10app\Gismeteo\Gismeteo\bin\Debug\ReverseMap\resources.pri
+C:\win10app\Gismeteo\Gismeteo\bin\Debug\AppxManifest.xml
+C:\win10app\Gismeteo\Gismeteo\bin\Debug\Gismeteo.build.appxrecipe
+C:\win10app\Gismeteo\Gismeteo\bld\Debug\priconfig.xml
+C:\win10app\Gismeteo\Gismeteo\bld\Debug\priconfig.xml.intermediate
+C:\win10app\Gismeteo\Gismeteo\bld\Debug\layout.resfiles
+C:\win10app\Gismeteo\Gismeteo\bld\Debug\layout.resfiles.intermediate
+C:\win10app\Gismeteo\Gismeteo\bld\Debug\resources.resfiles
+C:\win10app\Gismeteo\Gismeteo\bld\Debug\resources.resfiles.intermediate
+C:\win10app\Gismeteo\Gismeteo\bld\Debug\pri.resfiles
+C:\win10app\Gismeteo\Gismeteo\bld\Debug\pri.resfiles.intermediate
+C:\win10app\Gismeteo\Gismeteo\bld\Debug\qualifiers.txt
+C:\win10app\Gismeteo\Gismeteo\bld\Debug\qualifiers.txt.intermediate
+C:\win10app\Gismeteo\Gismeteo\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\win10app\Gismeteo\Gismeteo\bld\Debug\ProjectArchitectures.txt

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-JFCS0V7NLAF</Machine>
+    <WindowsUser>alexv</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>83ae76cb-2b3d-4679-aadb-6db7e20c7109</PackageIdentityName>
+    <IntermediateOutputPath>C:\win10app\Gismeteo\Gismeteo\bld\x64\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\win10app\Gismeteo\Gismeteo\bin\x64\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\location\location.html">
+      <PackagePath>pages\location\location.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\search\page.html">
+      <PackagePath>pages\search\page.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\weather\page.html">
+      <PackagePath>pages\weather\page.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\location\location.js">
+      <PackagePath>pages\location\location.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\WinJS\js\en-US\ui.strings.js">
+      <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\WinJS\js\WinJS.js">
+      <PackagePath>WinJS\js\WinJS.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\WinJS\js\WinJS.intellisense.js">
+      <PackagePath>WinJS\js\WinJS.intellisense.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\WinJS\js\WinJS.intellisense-setup.js">
+      <PackagePath>WinJS\js\WinJS.intellisense-setup.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\location\location.css">
+      <PackagePath>pages\location\location.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\WinJS\fonts\Symbols.ttf">
+      <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\bin\x64\Release\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

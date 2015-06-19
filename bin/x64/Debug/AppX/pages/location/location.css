@@ -1,0 +1,42 @@
+﻿#cities {
+    width: 100%;
+    height: 100%;
+}
+
+.tile {
+  display: -ms-grid;
+   -ms-grid-rows: 1fr 48px 50px 50px 1fr;
+   width: 250px;
+   height: 250px;
+   border: 1px solid #1c1923;
+   background: #131e2b;
+   padding: 10px 20px;
+   box-sizing: border-box;
+}
+
+.tile.adding {
+    width:64px; 
+    height: 64px; 
+    position:absolute; 
+    top: 50%; 
+    left: 50%;
+    background-color:#f00; 
+    margin-top: -32px;  
+    margin-left: -32px;
+    display: block;
+    padding: 0;
+}
+
+/*.adding {
+    position: relative;
+    display: table-cell;
+    text-align:center;
+    vertical-align: middle;
+}
+    */
+.button-add {
+    position:relative;
+    display:block;
+    width:64px;
+    height:64px;
+}
