@@ -8,7 +8,7 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>83ae76cb-2b3d-4679-aadb-6db7e20c7109</PackageIdentityName>
     <IntermediateOutputPath>C:\win10app\Gismeteo\Gismeteo\bld\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>89E90F000CC82C84D05DF14F1361B13BD13A5C9F6DFBD604488647565D3DC437</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>2B9C21924B02096D7D237166CCF8D6E352D02EF8DA9477131BE658B4625F3A34</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>83ae76cb-2b3d-4679-aadb-6db7e20c7109_1.0.0.0_neutral__rav5vrhf8rg58</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>83ae76cb-2b3d-4679-aadb-6db7e20c7109_rav5vrhf8rg58!App</RegisteredUserModeAppID>
     <RegisteredPackageID>83ae76cb-2b3d-4679-aadb-6db7e20c7109</RegisteredPackageID>
@@ -20,17 +20,17 @@
     <AppXManifest Include="C:\win10app\Gismeteo\Gismeteo\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-06-19T11:29:34.654</Modified>
+      <Modified>2015-06-22T16:07:10.514</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2015-06-18T11:29:51.684</Modified>
+      <Modified>2015-06-22T14:39:37.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\location\location.html">
       <PackagePath>pages\location\location.html</PackagePath>
-      <Modified>2015-06-19T16:31:43.168</Modified>
+      <Modified>2015-06-22T17:08:24.699</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\map\map.html">
       <PackagePath>pages\map\map.html</PackagePath>
@@ -42,7 +42,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\weather\weather.html">
       <PackagePath>pages\weather\weather.html</PackagePath>
-      <Modified>2015-06-19T14:56:34.060</Modified>
+      <Modified>2015-06-22T12:42:45.724</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
@@ -62,7 +62,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2015-06-16T10:26:16.959</Modified>
+      <Modified>2015-06-22T15:21:21.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
@@ -70,7 +70,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\location\location.js">
       <PackagePath>pages\location\location.js</PackagePath>
-      <Modified>2015-06-19T16:48:26.599</Modified>
+      <Modified>2015-06-22T17:07:20.812</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\map\map.js">
       <PackagePath>pages\map\map.js</PackagePath>
@@ -78,11 +78,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\search\search.js">
       <PackagePath>pages\search\search.js</PackagePath>
-      <Modified>2015-06-19T16:08:19.270</Modified>
+      <Modified>2015-06-22T15:40:43.515</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\weather\weather.js">
       <PackagePath>pages\weather\weather.js</PackagePath>
-      <Modified>2015-06-19T16:50:26.386</Modified>
+      <Modified>2015-06-19T16:52:54.467</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\WinJS\js\en-US\ui.strings.js">
       <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
@@ -118,7 +118,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\weather\weather.css">
       <PackagePath>pages\weather\weather.css</PackagePath>
-      <Modified>2015-06-19T15:12:29.545</Modified>
+      <Modified>2015-06-22T12:41:27.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\WinJS\css\ui-dark.css">
       <PackagePath>WinJS\css\ui-dark.css</PackagePath>
@@ -134,7 +134,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-06-19T11:29:34.482</Modified>
+      <Modified>2015-06-22T16:07:10.240</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

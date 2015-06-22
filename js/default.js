@@ -45,6 +45,10 @@
             // Optimize the load of the application and while the splash screen is shown, execute high priority scheduled work.
             ui.disableAnimations();
             var p = ui.processAll().then(function () {
+                var roamingSettings = Windows.Storage.ApplicationData.current.roamingSettings;
+                if (!roamingSettings.values['data']) {
+                   Application.navigator.home = "/pages/location/location.html";
+                }
                 return nav.navigate(nav.location || Application.navigator.home, nav.state);
             }).then(function () {
                 return sched.requestDrain(sched.Priority.aboveNormal + 1);

@@ -109,9 +109,12 @@
             data.list = element.querySelector("#cities").winControl;
             data.list.itemDataSource = data.locations.dataSource;
             data.list.groupDataSource = data.locations.groups.dataSource;
-            data.getData(options.detail.queryText);
-            data.list.layout.itemInfo = data.itemInfo;
-            data.list.oniteminvoked = data.oniteminvokedHandler;
+            try {
+                data.getData(options.detail.queryText);
+                data.list.layout.itemInfo = data.itemInfo;
+                data.list.oniteminvoked = data.oniteminvokedHandler;
+            }
+            catch(err) {}
             WinJS.UI.processAll();
         }
     });

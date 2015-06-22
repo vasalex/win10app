@@ -2,20 +2,19 @@
     "use strict";
 
      var cities = [
-          { group: { title: "neareast", ru: "Ближайшие" }, data: { id: 4368, name: "Москва" }, add_plus: { display: "none" }, type: "largeListIconTextItem", map: { display: "none" } },
-          { group: { title: "neareast", ru: "Ближайшие" }, data: { id: 0, name: "" }, add_plus: { display: "none" }, type: "largeListIconTextItem", map: { display: "block" } },
-          { group: { title: "saved", ru: "Сохранённые" }, data: { id: 4355, name: "Нижний Новгород" }, add_plus: { display: "none" }, type: "largeListIconTextItem", map: { display: "none" } },
-          { group: { title: "saved", ru: "Сохранённые" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "largeListIconTextItem", map: { display: "none" } },
-          { group: { title: "saved", ru: "Сохранённые" }, data: { id: 0, name: "" }, add_plus: { display: "block" }, type: "largeListIconTextItem", map: { display: "none" } },
-          { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none" } },
-          { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none" } },
-          { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none" } },
-          { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none" } },
-          { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none" } },
-          { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none" } },
-          { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none" } },
-          { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none" } }
-
+          { group: { title: "neareast", ru: "Ближайшие" }, data: { id: 4368, name: "Москва" }, add_plus: { display: "none" }, type: "largeListIconTextItem", map: { display: "none", src: "#" } },
+          { group: { title: "neareast", ru: "Ближайшие" }, data: { id: 0, name: "" }, add_plus: { display: "none" }, type: "largeListIconTextItem", map: { display: "block", src: "ms-appx-web:///pages/map/map.html" } },
+          { group: { title: "saved", ru: "Сохранённые" }, data: { id: 4355, name: "Нижний Новгород" }, add_plus: { display: "none" }, type: "largeListIconTextItem", map: { display: "none", src: "#" } },
+          { group: { title: "saved", ru: "Сохранённые" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "largeListIconTextItem", map: { display: "none", src: "#" } },
+          { group: { title: "saved", ru: "Сохранённые" }, data: { id: 0, name: "" }, add_plus: { display: "block" }, type: "largeListIconTextItem", map: { display: "none", src: "#" } },
+          { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none", src: "#" } },
+          { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none", src: "#" } },
+          { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none", src: "#" } },
+          { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none", src: "#" } },
+          { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none", src: "#" } },
+          { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none", src: "#" } },
+          { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none", src: "#" } },
+          { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none", src: "#" } }
       ];
 
       var citiesList = new WinJS.Binding.List(cities);
@@ -78,11 +77,44 @@
               oniteminvokedHandler: WinJS.UI.eventHandler(oniteminvokedHandler)
           });
 
+      function getLoc() {
+          var loc = new Windows.Devices.Geolocation.Geolocator();
+          loc.getGeopositionAsync().then(getPositionHandler, errorHandler);
+      }
 
+      function getPositionHandler(pos) {
+          var p = new RemoteData().getData("http://ed947b27.services.gismeteo.ru/inform-service/f6430fd320dfe3e8913ac72ef343509d/cities/?lat=" + pos.coordinate.point.position.latitude + "&lng=" + pos.coordinate.point.position.longitude);
+          p.done(
+                function complete(result) {
+                    console.log(result.response.error);
+                },
+                function error(result) {
+
+                }
+          );
+      }
+
+      function errorHandler(e) {
+          console.log(e.message);
+      }
 
     WinJS.UI.Pages.define("/pages/location/location.html", {
         ready: function (element, options) {
-         }
+            getLoc();
+        }
     });
+
+    var RemoteData = (function () {
+        function RemoteData() { }
+        RemoteData.prototype.getData = function (url, data) {
+            return WinJS.xhr({
+                url: url,
+                type: 'GET',
+                responseType: "json",
+                data: JSON.stringify(data)
+            });
+        };
+        return RemoteData;
+    })();
 
 })();
