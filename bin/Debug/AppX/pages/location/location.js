@@ -12,10 +12,9 @@
           { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none", src: "#" } },
           { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none", src: "#" } },
           { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none", src: "#" } },
-              { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none", src: "#" } },
-                  { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none", src: "#" } },
-                      { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none", src: "#" } }
-
+          { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none", src: "#" } },
+          { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none", src: "#" } },
+          { group: { title: "last_found", ru: "Последние поиски" }, data: { id: 4355, name: "Киров" }, add_plus: { display: "none" }, type: "middleListIconTextItem", map: { display: "none", src: "#" } }
       ];
 
       var citiesList = new WinJS.Binding.List(cities);

@@ -70,7 +70,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\location\location.js">
       <PackagePath>pages\location\location.js</PackagePath>
-      <Modified>2015-06-22T17:07:20.812</Modified>
+      <Modified>2015-06-22T17:11:53.211</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\win10app\Gismeteo\Gismeteo\pages\map\map.js">
       <PackagePath>pages\map\map.js</PackagePath>
